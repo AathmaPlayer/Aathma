@@ -4,13 +4,13 @@
   <p><strong>A music player for the soul. Where every frequency feels alive.</strong></p>
   
   <p>
-    <a href="https://github.com/AatmaPlayer/Aathma/releases/latest">
+    <a href="https://github.com/AathmaPlayer/Aathma/releases/latest">
       <img src="https://img.shields.io/github/v/release/AatmaPlayer/Aathma?style=for-the-badge&labelColor=0c0c0e&color=c8964a" alt="Latest Release">
     </a>
-    <a href="https://github.com/AatmaPlayer/Aathma/releases">
+    <a href="https://github.com/AathmaPlayer/Aathma/releases">
       <img src="https://img.shields.io/github/downloads/AatmaPlayer/Aathma/total?style=for-the-badge&labelColor=0c0c0e&color=7de0f5" alt="Total Downloads">
     </a>
-    <a href="https://github.com/AatmaPlayer/Aathma/blob/main/LICENSE">
+    <a href="https://github.com/AathmaPlayer/Aathma/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/AatmaPlayer/Aathma?style=for-the-badge&labelColor=0c0c0e&color=c8964a" alt="License">
     </a>
   </p>
