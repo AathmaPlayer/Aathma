@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="[https://YOUR_LOGO_URL_HERE.svg](https://raw.githubusercontent.com/AathmaPlayer/Aathma/main/assets/logo.jpeg)" alt="Aathma Logo" width="120">
+  <img src="https://raw.githubusercontent.com/AathmaPlayer/Aathma/main/assets/logo.jpeg" alt="Aathma Logo" width="120">
   <h1>Aathma Player</h1>
   <p><strong>A music player for the soul. Where every frequency feels alive.</strong></p>
   
