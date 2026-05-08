@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "build": "electron-builder -wml",
     "build-win": "electron-builder --win",
     "build-mac": "electron-builder --mac",
     "build-linux": "electron-builder --linux"
@@ -15,29 +16,51 @@
     "directories": {
       "output": "dist"
     },
+    "files": [
+      "**/*",
+      "!dist/",
+      "!node_modules/",
+      "!*.map"
+    ],
     "win": {
-      "target": "nsis",
-      "icon": "assets/icon.ico"
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        },
+        {
+          "target": "portable",
+          "arch": ["x64"]
+        }
+      ],
+      "icon": "assets/icon.ico",
+      "artifactName": "Aathma-Player-Setup.${ext}"
     },
     "mac": {
       "target": "dmg",
-      "icon": "assets/icon.icns"
+      "icon": "assets/icon.icns",
+      "artifactName": "Aathma-Player-macOS.${ext}"
     },
     "linux": {
       "target": "AppImage",
-      "icon": "assets/icon.png"
+      "icon": "assets/icon.png",
+      "artifactName": "Aathma-Player-Linux.${ext}"
+    },
+    "portable": {
+      "artifactName": "Aathma-Player-Portable.${ext}"
     },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
-      "shortcutName": "Aathma Player"
+      "shortcutName": "Aathma Player",
+      "artifactName": "Aathma-Player-Setup.${ext}"
     }
   },
   "devDependencies": {
     "electron": "^28.0.0",
     "electron-builder": "^24.13.3"
   },
-  "author": "Aathma Player",
+  "author": "Pranav Sharma",
   "license": "MIT"
 }
