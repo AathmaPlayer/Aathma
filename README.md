@@ -65,9 +65,9 @@ Getting started with Aathma is as simple as it gets.
 3.  **Run:** Double-click the downloaded file. No installation required!
 4.  **Enjoy:** Drag-and-drop a music file or folder, and feel the vibe.
 
-"Getting a 'Windows Protected your PC' warning?"
+## Getting a 'Windows Protected your PC' warning?
 
-"This is normal for a new application. Simply click on More info and then Run anyway to proceed with the installation. Our app is 100% safe and open-source."
+This is normal for a new application. Simply click on More info and then Run anyway to proceed with the installation. Our app is 100% safe and open-source.
 
 ## 🤝 Contributing
 
